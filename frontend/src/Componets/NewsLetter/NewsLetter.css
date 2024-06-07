@@ -1,0 +1,208 @@
+.newsLetter {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    margin:160px auto ;
+    padding: 30px 150px;
+    /* margin-bottom: 160px; */
+    background: linear-gradient(-90deg, red, white);
+    gap: 40px;
+}
+
+
+.newsLetter h1 {
+    color: rgb(29, 27, 27);
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.newsLetter p {
+    color: rgb(29, 27, 27);
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+
+.newsLetter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 740px;
+    border-radius: 85px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.newsLetter input {
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    color: #616161;
+
+    font-size: 17px;
+}
+
+
+
+
+.newsLetter div button {
+    width: 210px;
+    height: 70px;
+    border-radius: 85px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+
+.newsLetter div button:hover {
+    background: rgb(25, 21, 134);
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+
+  
+
+@media (max-width: 1200px ){
+    .newsLetter {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 119px;
+        background: linear-gradient(-90deg, red, white);
+        gap: 10px;
+        margin: 35px auto 55px;
+    }
+    }
+    .newsLetter h1 {
+        color: rgb(29, 27, 27);
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .newsLetter div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        width: 587px;
+        border-radius: 36px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .newsLetter div button {
+        width: 160px;
+        height: 40px;
+        border-radius: 85px;
+        background: black;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 700;
+        height: 50;
+    }
+
+
+
+@media (max-width: 768px ) {
+    .newsLetter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 30px 119px;
+        background: linear-gradient(-90deg, red, white);
+        gap: 10px;
+        height: 50vh;
+    }
+    .newsLetter div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        width: 427px;
+        border-radius: 36px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+}
+
+
+@media (max-width: 600px ){
+    .newsLetter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 565px auto 15px;
+        padding: 30px 61px;
+        margin-bottom: 80px;
+        background: linear-gradient(-90deg, red, white);
+        gap: 10px;
+    }
+}
+
+
+
+
+
+@media (max-width: 423px ){
+    .newsLetter input {
+        width: 190px;
+        margin-left: 29px;
+        border: none;
+        color: #616161;
+        font-size: 17px;
+    }
+    .newsLetter div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        width: 376px;
+        border-radius: 36px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .newsLetter div button {
+        width: 110px;
+    }
+}
+
+
+@media (max-width: 403px ){
+    .newsLetter h1 {
+        color: rgb(29, 27, 27);
+        font-size: 39px;
+        font-weight: 600;
+    }
+}
+
+
+@media (max-width: 386px ){
+    .newsLetter div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+        width: 320px;
+        border-radius: 36px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .newsLetter h1 {
+        color: rgb(29, 27, 27);
+        font-size: 33px;
+        font-weight: 600;
+    }
+}
+

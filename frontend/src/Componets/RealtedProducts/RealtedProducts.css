@@ -1,0 +1,101 @@
+.RealtedProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  height: 78vh;
+  margin-top: 35px;
+}
+
+
+.RealtedProducts h1 {
+  color: #171717;
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.RealtedProducts hr {
+  width: 200px;
+  height: 8px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.RealtedProducts-item {
+  margin-top: 50px;
+  display: flex;
+  gap: 5px;
+}
+
+
+
+@media (max-width: 1200px) {
+  .RealtedProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    height: 69vh;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 992px) {
+  .RealtedProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    height: 55vh;
+    margin-top: 32px;
+  }
+}
+
+
+@media (max-width: 837px) {
+  .productDisplay-right {
+    display: flex;
+    margin: auto 230px;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 779px) {
+  .productDisplay-right {
+    margin: auto 180px;
+
+  }
+}
+
+
+
+@media (max-width: 769px) {
+  .productDisplay-right {
+    margin: auto 290px;
+  }
+}
+
+@media (max-width: 695px) {
+  .productDisplay-right {
+    margin: auto 220px;
+  }
+}
+
+
+@media (max-width: 609px) {
+  .productDisplay-right {
+    margin: auto 170px;
+  }
+
+  .productDisplay-right h1 {
+    font-size: 25px;
+
+  }
+}
+
+@media (max-width: 551px) {
+  .productDisplay-right h1 {
+    font-size: 20px;
+  }
+}

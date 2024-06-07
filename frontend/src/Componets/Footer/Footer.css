@@ -1,0 +1,143 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .footer-logo p {
+    color: rgb(58, 53, 53);
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 14px;
+  }
+  
+  .FcShop {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .fotter-links {
+    display: flex;
+    list-style: circle;
+    gap: 45px;
+    color: rgb(58, 53, 53);
+    font-size: 21px;
+  }
+  
+  .fotter-links {
+    cursor: pointer;
+  }
+  
+  .footer-socials-icon {
+    display: flex;
+    gap: 22px;
+  }
+  
+  .icons {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .footer-icons-container {
+    padding: 14px;
+    padding-bottom: 9px;
+  }
+  
+  .footer-write {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .footer-write hr {
+    width: 82%;
+    border-radius: 11px;
+    height: 3px;
+  }
+  
+
+
+
+  @media (max-width: 1200px ){
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 75px;
+  }
+    .icons {
+      width: 40px;
+      height: 33px;
+  }
+  h2 {
+    font-size: 30px;
+}
+.footer-logo p {
+  color: rgb(58, 53, 53);
+  font-size: 42px;
+  font-weight: 600;
+  margin-top: 14px;
+}
+  }
+
+
+  @media (max-width: 600px ){
+    .footer-logo p {
+      color: rgb(58, 53, 53);
+      font-size: 32px;
+      font-weight: 400;
+      margin-top: 14px;
+  }
+  .fotter-links {
+    display: flex;
+    list-style: circle;
+    gap: 45px;
+    color: rgb(58, 53, 53);
+    font-size: 17px;
+}
+.icons {
+  width: 30px;
+  height: 33px;
+}
+h2 {
+  font-size: 27px;
+}
+  }
+
+
+  @media (max-width: 600px){
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+  }
+  .fotter-links {
+    display: flex;
+    list-style: circle;
+    gap: 30px;
+    color: rgb(58, 53, 53);
+    font-size: 12px;
+    font-weight: 600;
+}
+}
+
+
+@media (max-width: 375px){
+  .footer{
+    margin-top: 50px;
+  }
+}

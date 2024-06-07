@@ -1,0 +1,153 @@
+.item {
+  width: 350px;
+  text-align: center;
+}
+
+.item p {
+  margin: 6px 0px;
+}
+
+.item img {
+  width: 245px;
+  height: 240px;
+  border-radius: 50px;
+
+}
+
+.item-prices {
+  display: block;
+  text-align: center;
+}
+
+.item-price-new {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.item-price-old {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: line-through !important;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}
+
+
+
+@media (max-width: 1200px) {
+  .item img {
+    width: 240px;
+    height: 240px;
+    border-radius: 40px
+  }
+}
+
+@media (max-width: 992px) {
+  .item {
+    width: 232px;
+    text-align: center;
+  }
+
+  .item img {
+    width: 200px;
+    height: 170px;
+    border-radius: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item {
+    width: 198px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .item img {
+    width: 200px;
+    height: 165px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .item {
+      width: 152px;
+      text-align: center;
+    }
+
+  }
+
+  .item-price-old {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through !important;
+  }
+}
+
+
+@media (max-width: 634px) {
+  .item {
+    width: 190px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .item img {
+    width: 178px;
+    height: 155px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 610px) {
+  .item {
+    width: 170px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .item img {
+    width: 178px;
+    height: 155px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .item {
+    width: 100%;
+    text-align: center;
+
+  }
+}
+
+
+
+@media (max-width: 573px){
+  .item img {
+    width: 150px;
+    height: 155px;
+    border-radius: 10px;
+}
+}
+
+@media (max-width: 478px){
+  .item img {
+    width: 134px;
+    height: 155px;
+    border-radius: 10px;
+}
+}
+
+
+@media (max-width: 478px){
+  .item img {
+    width: 115px;
+    height: 142px;
+    border-radius: 10px;
+}
+}

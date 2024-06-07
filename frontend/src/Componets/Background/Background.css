@@ -1,0 +1,245 @@
+.background {
+  height: 110vh;
+  background: linear-gradient(to right,
+      rgba(255, 0, 0, 0),
+      rgb(255, 162, 0) 90%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 180px;
+  line-height: 1.1;
+}
+
+.background-left h2 {
+  color: beige;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.background-left p {
+  color: #171717;
+  font-size: 90px;
+  font-weight: 900;
+}
+
+.hand-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bsEer {
+  font-size: 5em;
+  color: rgba(255, 255, 255, 0.863);
+  transition: 1000ms;
+}
+
+.bsEer :hover {
+  color: skyblue;
+}
+
+.background-last-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+  height: 65px;
+  border-radius: 70px;
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.background-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-right img {
+  width: 350px;
+  border-radius: 50px;
+}
+
+.background-last-btn img {
+  margin-top: 5px;
+}
+
+@media (max-width: 1200px) {
+  .background {
+    height: 100vh;
+    background: linear-gradient(to right,
+        rgba(15, 226, 43, 0.91),
+        rgb(0, 255, 234) 90%);
+  }
+
+  .background-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 80px;
+    line-height: 1.1;
+  }
+
+  .background-left p {
+    color: #171717;
+    font-size: 76px;
+    font-weight: 800;
+  }
+
+  .background-last-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 260px;
+    height: 55px;
+    border-radius: 70px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 992px) {
+  .background {
+    height: 105vh;
+    background: linear-gradient(to right,
+        rgba(226, 212, 15, 0.91),
+        rgb(68, 0, 255) 90%);
+  }
+
+  .background-right img {
+    width: 350px;
+    border-radius: 50px;
+    display: none;
+  }
+
+  .background-left p {
+    color: #171717;
+    font-size: 75px;
+    font-weight: 700;
+  }
+
+  .bsEer {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .background {
+    height: 110vh;
+    background: linear-gradient(to right,
+        rgba(127, 226, 15, 0.91),
+        rgb(255, 0, 0) 90%);
+  }
+
+  .background-left p {
+    color: #171717;
+    font-size: 65px;
+    font-weight: 700;
+  }
+
+  .background-last-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 241px;
+    height: 49px;
+    border-radius: 120px;
+    margin-top: 0px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 712px) {
+  .bsEer {
+    display: none;
+  }
+
+  .background-left p {
+    color: #171717;
+    font-size: 60px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 600px) {
+  .background {
+    height: 85vh;
+    background: linear-gradient(to right,
+        rgba(255, 0, 0, 0),
+        rgb(0, 17, 255) 90%);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .background-left p {
+    color: #171717;
+    font-size: 42px;
+    font-weight: 500;
+  }
+
+  .background-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 54px;
+    line-height: 1.1;
+  }
+
+  .bsEer {
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.863);
+    transition: 1000ms;
+    display: none;
+  }
+
+  .background-last-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 244px;
+    height: 44px;
+    border-radius: 120px;
+    margin-top: 0px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+
+
+
+@media (max-width: 431px) {
+  .background-left p {
+    color: #171717;
+    font-size: 37px;
+    font-weight: 500;
+  }
+
+}
