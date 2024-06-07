@@ -14,7 +14,7 @@ backend: This folder contains the server-side code. To run the server, start the
 
 ![image](https://github.com/Orel7777/E-commerce_Shop/assets/124579830/4c98fc64-bb19-42f1-a46c-d42ddea851fa)
 
-**Frontend**: This folder contains a web application that allows users to browse and purchase products. To run the frontend application, start the frontend folder and then go to localhost:5000 in your web browser.
+**Frontend**: This folder contains a web application that allows users to browse and purchase products. To run the frontend application, start the frontend folder and then go to localhost:4000 in your web browser.
 
 ![image](https://github.com/Orel7777/E-commerce_Shop/assets/124579830/ac3bcd13-2da1-4974-935e-aa830d490163)
 
