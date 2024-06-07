@@ -14,6 +14,8 @@ backend: This folder contains the server-side code. To run the server, start the
 
 **Frontend**: This folder contains a web application that allows users to browse and purchase products. To run the frontend application, start the frontend folder and then go to localhost:5000 in your web browser.
 ![image](https://github.com/Orel7777/E-commerce_Shop/assets/124579830/ac3bcd13-2da1-4974-935e-aa830d490163)
+![image](https://github.com/Orel7777/E-commerce_Shop/assets/124579830/dc7cd530-1a21-4fa0-8385-247fa9166b50)
+![Uploading image.png…]()
 
 ### Installation
 To install the project, you will need to have Node.js and npm installed on your computer. Once you have those installed, you can clone the project and run the following commands in the project directory:
